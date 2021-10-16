@@ -1,0 +1,21 @@
+.header{
+    height: 30px;
+    background: sienna;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        height: 10px;
+        width: 10px;
+        margin-left: 10px;
+        background: cornflowerblue;
+    }
+    .user{
+        height: 10px;
+        width: 10px;
+        margin-right: 10px;
+        border-radius: 50%;
+        background: rgb(33, 165, 99);
+    }
+}

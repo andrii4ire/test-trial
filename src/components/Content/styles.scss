@@ -1,0 +1,27 @@
+.content {
+    padding-top: 10px;
+    color: rgba(128, 119, 206, 0.794);
+    height: calc(100vh - 60px);
+    background: rgb(48, 15, 78);
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        width: 60px;
+        margin: 0 auto;
+        padding: 3px 6px;
+        border-radius: 5px;
+        border: 1px solid gold;
+        cursor: pointer;
+        user-select: none;
+        font-size: 10px;
+        margin-top: 10px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    .counter{
+        margin-left: 10px;
+    }
+}
