@@ -1,6 +1,6 @@
 import { useState } from "react";
-
 import "./styles.scss";
+import Form from '../Form/Form'
 
 const Content = () => {
   const [counter, setCounter] = useState(0);
@@ -18,8 +18,10 @@ const Content = () => {
         </div>
       <div className="counter">{counter}</div>
       {counter >= 10 ? <div className="element">Element</div> : null}
+      <Form />
     </div>
   );
 };
+ 
 
 export default Content;
