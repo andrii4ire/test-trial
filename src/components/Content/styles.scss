@@ -43,4 +43,17 @@
         background: rgb(75, 39, 109);
         font-size: 10px;
     }
+    .form-checkbox{
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 10px;       
+        cursor: pointer; 
+        user-select: none;
+        
+        input{
+            height: 15px;
+            width: 15px;
+            margin: 0 0 0 5px;
+        }
+    }
 }
