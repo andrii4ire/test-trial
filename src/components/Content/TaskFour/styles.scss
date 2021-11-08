@@ -1,0 +1,43 @@
+.wrapp-drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    border: 3px solid royalblue;
+    border-radius: 10px;
+    padding: 5px;
+    .butt-drop {
+        width: 100px;
+        background: wheat;
+        border: 2px solid royalblue;
+        margin: 5px 0;
+        cursor: pointer;
+    }
+    .drop-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        background: rgb(245, 222, 179);
+        border: 2px solid royalblue;
+        border-top: 0;
+        margin: -5px 0 5px 0;
+        cursor: pointer;
+        .text {
+            width: 100%;
+            padding: 2px 0;
+            &:hover {
+                background: rgb(245, 222, 179);
+                opacity: 0.6;
+            }
+        }
+    }
+    .butt-criete {
+        width: 44px;
+        background: wheat;
+        border-radius: 10px;
+        border: 2px solid royalblue;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,77 @@
+.wrapp-drodown {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    .selectForm {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 3px solid goldenrod;
+        width: 320px;
+        padding: 10px 0;
+        background: rgb(75, 74, 71);
+        .select {
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .selectButt {
+            width: 16px;
+            height: 16px;
+            background: black;
+            cursor: pointer;
+        }
+    }
+    .wrapp-dropdoun {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid green;
+        height: 100px;
+        width: 320px;
+        overflow: auto;
+        .text {
+            color: green;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 5px;
+            cursor: pointer;
+        }
+    }
+    .colorful-square {
+        display: flex;
+        width: 320px;
+        border: 2px solid purple;
+        .square {
+            width: 10px;
+            height: 10px;
+            background: wheat;
+            border-radius: 50%;
+            margin: 20px;
+            cursor: pointer;
+        }
+    }
+    .wrapp-buttons {
+        .button-click-me {
+            width: 60px;
+            padding: 5px;
+            border: 3px solid green;
+            border-radius: 10px;
+            color: green;
+            background: rgb(162, 219, 54);
+            text-align: center;
+            margin: 20px;
+            cursor: pointer;
+        }
+        .button-an-click {
+            width: 60px;
+            padding: 5px;
+            border: 3px solid orangered;
+            border-radius: 10px;
+            color: rgba(255, 68, 0, 0.829);
+            background: rgb(208, 211, 35);
+            text-align: center;
+            margin: 20px;
+            cursor: pointer;
+        }
+    }
+}

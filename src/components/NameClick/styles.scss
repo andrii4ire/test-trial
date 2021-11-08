@@ -1,0 +1,69 @@
+.wrapp-for-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    .form-text-show {
+        border: 3px solid red;
+        color: red;
+        background: white;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 200px;
+        padding: 5px;
+        text-align: center;
+    }
+    .buttons {
+        display: flex;
+        margin: 10px;
+        .text {
+            border: 3px solid red;
+            color: red;
+            background: white;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+.blok {
+    width: 200px;
+    height: 60px;
+    border: 3px solid black;
+    background: blanchedalmond;
+    padding: 5px;
+    margin: 20px;
+    color: black;
+}
+
+.blok-button {
+    width: 200px;
+    height: 60px;
+    border: 3px solid black;
+    background: pink;
+    padding: 5px;
+    margin: 20px;
+    color: black;
+    .butt-text {
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+        border-radius: 10px;
+        background: plum;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+.butt-name-pass {
+    background: white;
+    width: 20px;
+    border: 3px solid red;
+    cursor: pointer;
+}

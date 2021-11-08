@@ -1,0 +1,40 @@
+    .green-yellow {
+        width: 100px;
+        padding: 10px;
+        margin: 20px 20px 5px;
+        border: 5px solid black;
+        border-radius: 10px;
+        background: white;
+        color: black;
+        text-align: center;
+        &.green {
+            background: green;
+        }
+        &.yellow {
+            background: yellow;
+        }
+    }
+    
+    .wrapp-color {
+        display: flex;
+        margin: 0 20px;
+        .butt-green {
+            width: 40px;
+            padding: 5px;
+            background: green;
+            color: black;
+            border: 4px solid black;
+            text-align: center;
+            cursor: pointer;
+        }
+        .butt-yellow {
+            width: 44px;
+            padding: 5px;
+            background: yellow;
+            color: black;
+            border: 4px solid black;
+            text-align: center;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    }
